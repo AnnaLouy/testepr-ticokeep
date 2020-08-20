@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Eating</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg site-navbar navbar-light cabecalho" id="pb-navbar">
+        <div class="container">
+            <div class="col-sm-8">
+                <div class="collapse navbar-collapse justify-content-md" id="navbarsExample09">
+                    <div class="navbar-nav">
+                        <a class="navbar-brand" href="#"> <img src="unnamed.png" width="40px" height="40px" id="logo">
+                            Keep eating</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="collapse navbar-collapse justify-content-md" id="navbarlinks">
+
+                    <ul class="nav navbar-nav ml-auto pull-right">
+                        <li class="nav-item active "><a class="nav-link" href="#">INÍCIO</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="menu.png" width="30px" height="30px">
+                            </a>
+                            <div class="pos-f-t">
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Receitas</a>
+									<a class="dropdown-item" href="#">Planos alimentares</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Preços</a>
+								</div>
+							</div>
+						</li>
+					</ul>							
+				</div>
+			</div>
+		</div>
+    </nav>
+
+    <div class="content-details_main-header">
+        <section class="site-section cabeca" id="section-header">
+            <div class="container info">
+                <div class="d-flex flex-row">
+                    <div>
+                        <span>
+                            <i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="mr-5 ml-2 mt-4">
+                        <span>Usuário </span><a href="#"> X</a>
+                    </div>
+                    <div class="mr-4 ml-4 coisas">
+                        <span>
+                            <i class="fa fa-bar-chart" aria-hidden="true">Visualizações:</i>
+                            <p>500k</p>
+                        </span>
+                    </div>
+                    <div class="mr-2 ml-2 coisas">
+                        <span> <i class="fa fa-clock-o" aria-hidden="true"></i>Tempo de preparação:</i></span>
+                        <p>40 minutos</p>
+                    </div>
+                    <div class="ml-5 coisas">
+                        <button type="button" class="btn btn-primary">Modo de Preparo</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab"
+                                    aria-controls="tab1" aria-selected="true">Detalhes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+                                    aria-selected="false">Exemplos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
+                                    aria-selected="false"><i class="fa fa-comment fa-lg" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="card-body">
+                        <div class="tab-content mt-3">
+                            <div class="tab-pane active" id="tab1" role="tabpanel">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h3 class="card-title">Bolo de cenoura</h3>
+                                        <h6 class="card-subtitle mb-2">Sobre</h6>
+                                        <div class="text-justify">
+                                            O bolo de cenoura é um bolo doce com raspagem de cenoura misturada dentro da
+                                            massa.
+                                            A cenoura é amolecida no processo de cozimento, e o bolo, usualmente, tem um
+                                            amolecimento e uma textura densa e suave.
+                                            O bolo de cenoura à moda brasileira é feito com uma massa contendo cenoura,
+                                            normalmente com cobertura de chocolate.
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="card">
+                                            <div class="card-header">Igredientes</div>
+                                            <div class="card-text">
+                                                <h5 class="ml-2 mt-2">Massa</h5>
+                                                <ul class="text-justify">
+                                                    <li class="item">Óleo: 1/2 xícara; </li>
+                                                    <li class="item">Cenouras médias: 3, raladas;</li>
+                                                    <li class="item">Ovos: 4;</li>
+                                                    <li class="item">Áçucar: 2 xícaras;</li>
+                                                    <li class="item">Farinha de trigo: 2 xícaras e meia;</li>
+                                                    <li class="item">Fermento em pó: 1 colher de sopa.</li>
+                                                </ul>
+                                            </div>
+                                            <div class="card-text">
+                                                <h5 class="ml-2 mt-2">Cobertura</h5>
+                                                <ul class="text-justify">
+                                                    <li class="item">Manteiga: 1 colher de sopa; </li>
+                                                    <li class="item">Chocolate em pó: 3 colheres de sopa;</li>
+                                                    <li class="item">Áçucar: 1 xícara;</li>
+                                                    <li class="item">Leite: 1 xícara;</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+							<div class="tab-pane" id="tab2" role="tabpanel">
+								<h4 class="card-title">Fotos</h4>
+								<div id="slides" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+										<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block w-100" src="Banner1.jpg" alt="Primeiro Slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="Banner2.jpg" alt="Segundo Slide">
+										</div>
+										<div class="carousel-item">
+											<img class="d-block w-100" src="Banner3.jpg" alt="Terceiro Slide">
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+										data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Anterior</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+										data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Próximo</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="tab3" role="tabpanel">
+								<div class="coment1">
+									<h6>Usuário(a)<a href="#">Mariana</a>:</h6>
+									<p>Meu bolo solou, uma pena.</p>
+								</div>
+								<div class="coment2">
+									<h6>Usuário(a)<a href="#">Tati</a>:</h6>
+									<p>Substituí os ovos por suco de laranja, dica para os veganos.</p>
+								</div>
+								<div class="coment3">
+									<h6>Usuário(a)<a href="#">Felipe</a>:</h6>
+									<p>Delícia, maridão amou.</p>
+								</div>
+								<span>
+									<form class="validated">
+										<div class="mb-3">
+											<label for="validationTextarea"></label>
+											<textarea class="form-control" id="validationTextarea"
+												placeholder="Required example textarea"
+												required>Deixe o seu comentário!</textarea>
+											<div class="feedback mt-2">
+												<button class="btn btn-primary" type="submit">Enviar</button>
+											</div>
+
+
+										</div>
+								</span>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<footer>
+    <section class="site-section rodape">
+        Feito por @AnnaBeatriz - 09:40 ~ 14:00 - 20/08/2020
+    </section>
+</footer>
+
+</html>
